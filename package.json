@@ -1,0 +1,29 @@
+{
+  "name": "rtmp-server",
+  "version": "1.0.0",
+  "description": "An RTMP Server for live streaming",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelwhite404/rtmp-server.git"
+  },
+  "keywords": [
+    "rtmp"
+  ],
+  "author": "Michael White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelwhite404/rtmp-server/issues"
+  },
+  "homepage": "https://github.com/michaelwhite404/rtmp-server#readme",
+  "dependencies": {
+    "node-media-server": "^2.3.8"
+  },
+  "devDependencies": {
+    "@types/node-media-server": "^2.3.1"
+  }
+}
