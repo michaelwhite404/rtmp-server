@@ -19,11 +19,5 @@
   "bugs": {
     "url": "https://github.com/michaelwhite404/rtmp-server/issues"
   },
-  "homepage": "https://github.com/michaelwhite404/rtmp-server#readme",
-  "dependencies": {
-    "node-media-server": "^2.3.8"
-  },
-  "devDependencies": {
-    "@types/node-media-server": "^2.3.1"
-  }
+  "homepage": "https://github.com/michaelwhite404/rtmp-server#readme"
 }
