@@ -1,23 +1,20 @@
 {
-  "name": "rtmp-server",
+  "name": "auth",
   "version": "1.0.0",
-  "description": "An RTMP Server for live streaming",
-  "main": "index.js",
+  "description": "Auth server for RTMP server",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.ts",
+    "start": "nodemon dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michaelwhite404/rtmp-server.git"
-  },
-  "keywords": [
-    "rtmp"
-  ],
   "author": "Michael White",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/michaelwhite404/rtmp-server/issues"
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   },
-  "homepage": "https://github.com/michaelwhite404/rtmp-server#readme"
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
 }
